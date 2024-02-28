@@ -5,7 +5,7 @@ const Search = ({ locationChanged }) => {
   const inputRef = useRef();
   const [location, setLocation] = useState("");
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=16951aa8652f9d1a5409edfc010d65b1`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=yourAPIKEY`;
 
   const checkKeyPressed = async (e) => {
     if (e.key === "Enter" || e.type === "click") {
