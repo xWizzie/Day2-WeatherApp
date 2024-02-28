@@ -16,32 +16,32 @@ This React-based Weather App provides real-time weather information for a specif
 - Axios (for API requests)
 
 ## Setup Instructions
-
-1. Clone the repository to your local machine.
+1. Get your personal API Key from [OpenWeather](https://openweathermap.org/) and replace it on Weather-App/src/components/search.jsx on line 8.
+2. Clone the repository to your local machine.
 
     ```bash
     git clone https://github.com/xWizzie/Day2-WeatherApp.git
     ```
 
-2. Navigate to the project directory.
+3. Navigate to the project directory.
 
     ```bash
     cd weather-app
     ```
 
-3. Install dependencies.
+4. Install dependencies.
 
     ```bash
     npm install
     ```
 
-4. Start the development server.
+5. Start the development server.
 
     ```bash
     npm start
     ```
 
-5. Open your browser and visit [http://localhost:xxx](http://localhost:xxxx) as shown to view the app.
+6. Open your browser and visit [http://localhost:xxx](http://localhost:xxxx) as shown to view the app.
 
 ## Usage
 
